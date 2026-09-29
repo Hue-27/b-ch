@@ -1,0 +1,34 @@
+
+body{
+    background-color: rgb(233, 222, 138);
+}
+h1{
+    background-color: rgb(143, 172, 76);
+}
+.infor_1 {
+    color: rgb(185, 44, 63);
+    list-style-type: none;
+    
+}
+h3 a {
+    text-decoration: none;
+    
+}
+#infor_2 {
+    text-align: center;
+}
+button{
+    background-color: rgb(75, 205, 136);
+    width: 100px;
+    height: 40px;
+    margin-left: 250px;
+    border: 5px solid
+}
+button:active{
+    background-color: pink;
+    color: rgb(98, 96, 137);
+}
+p b {
+    background-color: rgb(168, 206, 72);
+    font-size: 30px;
+}
