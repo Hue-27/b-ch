@@ -1,0 +1,80 @@
+body{
+    background-color: pink;
+}
+#header {
+    color: rgb(148, 11, 34);
+    text-align: center;
+}
+/* hết heard*/
+
+#content{
+    color: pink;
+}
+
+#content ul{
+    list-style-type: none;
+    font-size: 25px;
+    padding: 0;
+    text-align: center;
+    text-align: left;
+    width: 250px;
+    background-color: rgb(135, 38, 54);
+}
+#content li{
+    padding: 0 1em;
+   border-bottom: 1px solid rgb(144, 35, 53);
+   line-height: 40px;
+   height: 40px;
+   height: auto;
+}
+#content li a{
+    text-decoration: none;
+   
+}
+#content li:hover{
+    background-color: rgb(166, 103, 114);
+    
+}
+#content .com, .banh, .juice{
+    display: none;
+}
+#content li:hover .com, .banh, .juice{
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: rgb(231, 49, 79);
+}
+#content  .banh, .juice{
+    display: none;
+}
+#content li:hover .banh, .juice{
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: rgb(209, 56, 82);
+}
+#content   .juice{
+    display: none;
+}
+#content li:hover .juice{
+    display: block;
+    position: absolute;
+    left: 250px;
+    top: 0;
+    background-color: rgb(215, 26, 58);
+}
+#content ul li{
+    position: relative;
+}
+
+#content li img{
+    height: 100px;
+    width: 100px;
+    display: none;
+    object-fit: cover;
+}
+#content li:hover img{
+    display: block;
+}
